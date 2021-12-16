@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "quick api",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": "git@github.com:AntonBen/food-api.git",
   "author": "AntonBen <anton_1891@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ajv": "^8.8.2",
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "pg": "^8.7.1"
+    "pg": "^8.7.1",
+    "swagger-ui-express": "^4.2.0"
   }
 }
