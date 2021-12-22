@@ -5,10 +5,10 @@ const cityParts = [
   'Södermalm',
   'Norrmalm',
   'Kungsholmen',
-  'Gamla Stan'
+  'Gamla Stan',
 ];
 
-const getLocationSuggestions = (req,res) => {
+const getLocationSuggestions = (res) => {
   res.json(cityParts);
 };
 
