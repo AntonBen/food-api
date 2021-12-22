@@ -1,0 +1,11 @@
+### 
+GET https://europe-west1-restaurants-tinder.cloudfunctions.net/food-api/restaurants?location=stockholm
+
+### 
+GET http://localhost:3001/restaurants?location=stockholm
+
+### 
+GET https://europe-west1-restaurants-tinder.cloudfunctions.net/food-api/restaurants
+
+### 
+GET https://europe-west1-restaurants-tinder.cloudfunctions.net/food-api/restaurants/suggestions
