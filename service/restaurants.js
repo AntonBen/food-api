@@ -20,7 +20,7 @@ const getRestaurants = (req, res) => {
   const valid = restaurantsSchema({limit, location});
 
   if ( !valid ) {
-    return res.status(422).send(valid.error || 'incorrect input');
+    return res.status(422).send(restaurantsSchema.errors || 'incorrect input');
   };
 
   yelp.get('https://api.yelp.com/v3/businesses/search',
